@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent"
+android:orientation="vertical" android:gravity="center_horizontal"
+android:padding="22dp" android:background="#070A12">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:text="J A R V I S  7" android:textColor="#FFFFFF" android:textSize="28sp"
+android:textStyle="bold" android:layout_marginTop="30dp"/>
+<TextView android:id="@+id/status" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Pronto" android:textColor="#BDB7D8"
+android:textSize="16sp" android:layout_marginTop="8dp"/>
+<TextView android:id="@+id/last" android:layout_width="match_parent"
+android:layout_height="wrap_content" android:text="Wake word: Jarvis"
+android:textColor="#FFFFFF" android:textSize="20sp" android:gravity="center"
+android:layout_marginTop="70dp"/>
+<EditText android:id="@+id/pvKey" android:layout_width="match_parent"
+android:layout_height="wrap_content" android:hint="AccessKey Picovoice (obrigatória para “Jarvis”)"
+android:inputType="textPassword" android:textColor="#FFFFFF"
+android:hintTextColor="#77758A" android:layout_marginTop="28dp"/>
+<EditText android:id="@+id/apiKey" android:layout_width="match_parent"
+android:layout_height="wrap_content" android:hint="Chave OpenAI (opcional)"
+android:inputType="textPassword" android:textColor="#FFFFFF"
+android:hintTextColor="#77758A" android:layout_marginTop="12dp"/>
+<Button android:id="@+id/start" android:layout_width="match_parent"
+android:layout_height="56dp" android:text="ATIVAR JARVIS"
+android:textAllCaps="false" android:textColor="#FFFFFF"
+android:background="@drawable/button_bg" android:layout_marginTop="18dp"/>
+<Button android:id="@+id/stop" android:layout_width="match_parent"
+android:layout_height="52dp" android:text="Desativar"
+android:textAllCaps="false" android:textColor="#FFFFFF"
+android:background="@drawable/button_bg" android:layout_marginTop="10dp"/>
+</LinearLayout>
